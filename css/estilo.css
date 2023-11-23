@@ -107,6 +107,7 @@ main{
     background-color: cornsilk;
     text-align: center;
     padding: 10px;
+    
 }
 
 .contenedorTitulo {
@@ -184,7 +185,7 @@ main{
     border-radius: 10px;
 } */
 
- .imagenDestinos {
+ .imgDestinos {
     display: block;
     width: 100%;
     height: auto;
@@ -197,6 +198,7 @@ main{
 }
 
 .videosTestimonios {
+    
     display: block;
     width: 100%;
     height: 3fr;
@@ -345,7 +347,9 @@ textarea {
         column-gap: 5px;
         padding: 0%;
         padding-bottom: 10px;
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        display: block;
+        width: 100%;
+        height: 3fr;
     }
 }
