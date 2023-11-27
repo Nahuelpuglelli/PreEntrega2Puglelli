@@ -26,7 +26,7 @@ header nav ul {
         margin: 0 10px;
     }
     
- /* links */
+/* links */
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -108,7 +108,17 @@ main{
     text-align: center;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.card img {
+    
+    display: block;
+    width: 100%;
+    height: 100%;
     
 }
 
@@ -123,7 +133,7 @@ main{
     font-family: 'Roboto', sans-serif;
 }
 
- .contenedorTestimonios p {
+.contenedorTestimonios p {
     color: black;
     padding: 1px;
     font-weight: bold;
@@ -159,17 +169,17 @@ main{
     text-transform: uppercase;  
  }
  
- .contenedorFooter  {
+.contenedorFooter  {
      background-color: #9A9998 ;
      color: #fafafa;
     
  }
 
- .contenedorFooter p {
+.contenedorFooter p {
     cursor: pointer;
  }
  
- .formulario {
+.formulario {
     display: block;
     width: 2fr;
     padding: 10px;
@@ -181,17 +191,9 @@ main{
  } 
 /* Destinos */
 
-/* .contenedorDestinos {
-    margin: 20px;
-    border:  4px solid #333;
-    border-radius: 10px;
-} */
 
- .imgDestinos {
-    display: block;
-    width: 100%;
-    height: auto;
-} 
+
+
 
 .mapaSucursal {
     display: block;
@@ -203,19 +205,11 @@ main{
     
     display: block;
     width: 100%;
-    height: 3fr;
+    height: 2fr;
     
 }
 
-/* .contenedorDestinos p {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-} */
+
 
 /* iframe */
 
@@ -227,9 +221,7 @@ main{
 
 /* Formulario */
 
-/* form {
-    margin-top: 20px;
-} */
+
 
  label {
     display: block;
@@ -267,7 +259,6 @@ textarea {
     flex-direction: row;
     justify-content: space-around;
     padding: 10px;
-    
     background-color: #9A9998;
     border-top: 20px solid chocolate ;
 }
@@ -288,13 +279,13 @@ textarea {
     color: #fafafa;
 }
 
-.card  {
+/*.card  {
     width: 600px;
     background-color: cornsilk;
     
     text-align: center;
     padding: 10px;
-}
+}*/
 
 
 
@@ -352,6 +343,8 @@ textarea {
         grid-template-columns: 1fr 1fr 1fr; 
         width: 100%;
         height: 3fr;
+        padding: 10px;
+        margin-bottom: 10px;
         
     }
 }
